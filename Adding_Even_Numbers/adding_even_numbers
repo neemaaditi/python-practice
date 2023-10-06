@@ -1,0 +1,6 @@
+target = int(input()) # Enter a number between 0 and 1000
+t = target + 1
+tot = 0
+for n in range (0,t,2):
+  tot += n
+print(tot)
